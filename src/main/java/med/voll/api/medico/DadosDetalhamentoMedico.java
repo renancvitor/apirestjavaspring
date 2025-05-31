@@ -1,5 +1,6 @@
 package med.voll.api.medico;
 
+import med.voll.api.endereco.Endereco;
 import org.hibernate.validator.internal.engine.messageinterpolation.parser.EscapedState;
 
 public record DadosDetalhamentoMedico(Long id,
@@ -7,11 +8,12 @@ public record DadosDetalhamentoMedico(Long id,
                                       String email,
                                       String cfm,
                                       String telefone,
-                                      Especialidade especialidade) {
+                                      Especialidade especialidade,
+                                      Endereco endereco) {
 
 
     public DadosDetalhamentoMedico(Medico medico) {
         this(medico.getId(), medico.getNome(), medico.getEmail(), medico.getCrm(), medico.getTelefone(),
-        medico.getEspecialidade());
+        medico.getEspecialidade(), medico.getEndereco());
     }
 }

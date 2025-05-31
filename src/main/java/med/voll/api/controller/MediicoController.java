@@ -10,8 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/medicos")
 public class MediicoController {
@@ -26,7 +24,7 @@ public class MediicoController {
     }
 
     @GetMapping
-    public ResponseEntity <Page<DadosListagemMedico>> lsitar(@PageableDefault(size = 10,
+    public ResponseEntity<Page<DadosListagemMedico>> lsitar(@PageableDefault(size = 10,
             sort = {"nome"}) Pageable paginacao) {
         var page = repository.findAllByAtivoTrue(paginacao).map(DadosListagemMedico::new);
         return ResponseEntity.ok(page);
