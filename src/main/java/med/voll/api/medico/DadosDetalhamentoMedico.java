@@ -1,7 +1,6 @@
 package med.voll.api.medico;
 
 import med.voll.api.endereco.Endereco;
-import org.hibernate.validator.internal.engine.messageinterpolation.parser.EscapedState;
 
 public record DadosDetalhamentoMedico(Long id,
                                       String nome,
