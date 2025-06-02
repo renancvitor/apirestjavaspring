@@ -1,0 +1,11 @@
+INSERT INTO pacientes (nome, email, cpf, telefone, logradouro, bairro, cep, complemento, numero, uf, cidade, ativo) VALUES
+('Ana Silva', 'ana.silva@mail.com', '123.456.789-00', '(11) 99999-1111', 'Rua das Flores', 'Centro', '01001-000', 'Apt 101', '123', 'SP', 'São Paulo', 1),
+('Bruno Costa', 'bruno.costa@mail.com', '234.567.890-11', '(21) 98888-2222', 'Avenida Brasil', 'Copacabana', '22040-002', 'Casa', '45', 'RJ', 'Rio de Janeiro', 1),
+('Carla Lima', 'carla.lima@mail.com', '345.678.901-22', '(31) 97777-3333', 'Travessa das Acácias', 'Savassi', '30140-150', 'Bloco B', '202', 'MG', 'Belo Horizonte', 1),
+('Daniel Souza', 'daniel.souza@mail.com', '456.789.012-33', '(41) 96666-4444', 'Rua XV de Novembro', 'Batel', '80020-310', 'Ap 1203', '1203', 'PR', 'Curitiba', 1),
+('Elisa Martins', 'elisa.martins@mail.com', '567.890.123-44', '(51) 95555-5555', 'Avenida Ipiranga', 'Centro', '90020-007', NULL, '789', 'RS', 'Porto Alegre', 1),
+('Felipe Rocha', 'felipe.rocha@mail.com', '678.901.234-55', '(61) 94444-6666', 'Setor Central', 'Asa Sul', '70330-000', 'Apt 303', '303', 'DF', 'Brasília', 1),
+('Gabriela Alves', 'gabriela.alves@mail.com', '789.012.345-66', '(71) 93333-7777', 'Rua das Laranjeiras', 'Barra', '40140-150', 'Casa', '56', 'BA', 'Salvador', 1),
+('Henrique Dias', 'henrique.dias@mail.com', '890.123.456-77', '(85) 92222-8888', 'Avenida Beira Mar', 'Meireles', '60165-121', 'Apt 605', '605', 'CE', 'Fortaleza', 1),
+('Isabela Nunes', 'isabela.nunes@mail.com', '901.234.567-88', '(27) 91111-9999', 'Rua da Praia', 'Centro', '29010-000', NULL, '300', 'ES', 'Vitória', 1),
+('João Pedro', 'joao.pedro@mail.com', '012.345.678-99', '(19) 90000-0000', 'Rua dos Pinheiros', 'Jardim Paulistano', '01422-000', 'Ap 1102', '1102', 'SP', 'São Paulo', 1);
