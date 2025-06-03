@@ -1,11 +1,13 @@
-INSERT INTO medicos (nome, email, crm, especialidade, logradouro, bairro, cep, complemento, numero, uf, cidade, telefone, ativo) VALUES
-('Lucas Martins', 'lucas.martins@email.com', 'A12345', 'Cardiologia', 'Rua das Flores', 'Jardim América', '12345-678', 'Apto 101', '100', 'SP', 'São Paulo', '(11) 91234-5678', 1),
-('Marina Silva', 'marina.silva@email.com', 'B23456', 'Dermatologia', 'Av. Paulista', 'Bela Vista', '23456-789', NULL, '200', 'SP', 'São Paulo', '(11) 92345-6789', 1),
-('Pedro Souza', 'pedro.souza@email.com', 'C34567', 'Ortopedia', 'Rua das Palmeiras', 'Vila Mariana', '34567-890', 'Bloco B', '150', 'RJ', 'Rio de Janeiro', '(21) 93456-7890', 1),
-('Ana Costa', 'ana.costa@email.com', 'D45678', 'Pediatria', 'Rua da Harmonia', 'Copacabana', '45678-901', NULL, '300', 'RJ', 'Rio de Janeiro', '(21) 94567-8901', 1),
-('Felipe Gomes', 'felipe.gomes@email.com', 'E56789', 'Neurologia', 'Av. Brasil', 'Centro', '56789-012', 'Sala 10', '400', 'MG', 'Belo Horizonte', '(31) 95678-9012', 1),
-('Carla Pinto', 'carla.pinto@email.com', 'F67890', 'Ginecologia', 'Rua das Laranjeiras', 'Savassi', '67890-123', NULL, '500', 'MG', 'Belo Horizonte', '(31) 96789-0123', 1),
-('Rafael Lima', 'rafael.lima@email.com', 'G78901', 'Endocrinologia', 'Av. das Nações', 'Jardim América', '78901-234', 'Conjunto 5', '600', 'RS', 'Porto Alegre', '(51) 97890-1234', 1),
-('Sofia Almeida', 'sofia.almeida@email.com', 'H89012', 'Oftalmologia', 'Rua do Sol', 'Moinhos de Vento', '89012-345', NULL, '700', 'RS', 'Porto Alegre', '(51) 98901-2345', 1),
-('Bruno Fernandes', 'bruno.fernandes@email.com', 'I90123', 'Psiquiatria', 'Av. Ipiranga', 'Centro', '90123-456', 'Sala 20', '800', 'PR', 'Curitiba', '(41) 99012-3456', 1),
-('Larissa Rocha', 'larissa.rocha@email.com', 'J01234', 'Reumatologia', 'Rua XV de Novembro', 'Batel', '01234-567', NULL, '900', 'PR', 'Curitiba', '(41) 90123-4567', 1);
+INSERT INTO medicos
+(nome, email, crm, especialidade, logradouro, bairro, cep, complemento, numero, uf, cidade, telefone, ativo)
+VALUES
+('Dr. João Silva', 'joao.silva@clinica.com', '123456', 'ORTOPEDIA', 'Rua das Flores', 'Centro', '12345-678', 'Sala 101', '100', 'SP', 'São Paulo', '(11) 98765-4321', 1),
+('Dra. Maria Souza', 'maria.souza@clinica.com', '234567', 'CARDIOLOGIA', 'Av. Brasil', 'Jardim América', '23456-789', 'Ap 202', '200', 'RJ', 'Rio de Janeiro', '(21) 99876-5432', 1),
+('Dr. Carlos Lima', 'carlos.lima@clinica.com', '345678', 'GINECOLOGIA', 'Rua A', 'Vila Nova', '34567-890', NULL, '300', 'MG', 'Belo Horizonte', '(31) 91234-5678', 1),
+('Dra. Ana Pereira', 'ana.pereira@clinica.com', '456789', 'DERMATOLOGIA', 'Rua B', 'Centro', '45678-901', 'Conj. 4', '400', 'RS', 'Porto Alegre', '(51) 99812-3456', 1),
+('Dr. Pedro Martins', 'pedro.martins@clinica.com', '567890', 'ORTOPEDIA', 'Rua C', 'Liberdade', '56789-012', NULL, '500', 'BA', 'Salvador', '(71) 98123-4567', 1),
+('Dra. Luana Torres', 'luana.torres@clinica.com', '678901', 'CARDIOLOGIA', 'Av. Central', 'Boa Vista', '67890-123', NULL, '600', 'PE', 'Recife', '(81) 99456-7890', 1),
+('Dr. Marcos Dias', 'marcos.dias@clinica.com', '789012', 'GINECOLOGIA', 'Rua D', 'Centro', '78901-234', NULL, '700', 'CE', 'Fortaleza', '(85) 99678-1234', 1),
+('Dra. Beatriz Almeida', 'beatriz.almeida@clinica.com', '890123', 'DERMATOLOGIA', 'Rua E', 'São José', '89012-345', 'Bloco A', '800', 'SC', 'Florianópolis', '(48) 99789-2345', 1),
+('Dr. Rafael Costa', 'rafael.costa@clinica.com', '901234', 'ORTOPEDIA', 'Rua F', 'Industrial', '90123-456', NULL, '900', 'PR', 'Curitiba', '(41) 99890-3456', 1),
+('Dra. Camila Rocha', 'camila.rocha@clinica.com', '012345', 'CARDIOLOGIA', 'Av. das Nações', 'Lago Sul', '01234-567', NULL, '1000', 'DF', 'Brasília', '(61) 99901-4567', 1);
