@@ -5,7 +5,7 @@ import med.voll.api.infra.exception.ValidacaoException;
 
 import java.time.DayOfWeek;
 
-public class validadorHorarioFuncionamentoClinica {
+public class ValidadorHorarioFuncionamentoClinica {
 
     public void validar(DadosAgendamentoConsulta dados) {
         var dataConsulta = dados.data();
