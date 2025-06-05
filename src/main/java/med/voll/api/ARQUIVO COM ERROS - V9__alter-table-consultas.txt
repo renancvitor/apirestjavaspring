@@ -1,0 +1,6 @@
+ALTER TABLE consultas ADD COLUMN motivo_cancelamento VARCHAR(100);
+
+INSERT INTO flyway_schema_history
+(version, description, type, script, checksum, installed_by, installed_on, execution_time, success)
+VALUES
+('9', 'add motivo_cancelamento column', 'SQL', 'V9__add_motivo_cancelamento.sql', 697865391, USER(), NOW(), 0, 1);
