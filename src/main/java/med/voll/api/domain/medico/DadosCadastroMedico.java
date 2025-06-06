@@ -15,7 +15,7 @@ public record DadosCadastroMedico(@NotBlank(message = "Nome é obrigatório")
                                   @NotBlank(message = "Telefone é obrigatório")
                                   String telefone,
                                   @NotBlank(message = "CRM é obrigatório")
-                                  @Pattern(regexp = "\\d{4,6}, message = \"Formato inválido\")")
+                                  @Pattern(regexp = "\\d{4,6}", message = "Formato inválido")
                                   String crm,
                                   @NotNull(message = "Especialidade é obrigatório")
                                   Especialidade especialidade,
