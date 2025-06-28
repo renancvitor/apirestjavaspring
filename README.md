@@ -35,7 +35,7 @@ Este repositório contém os exercícios, projetos e anotações desenvolvidos d
 
 - **Plataforma**: [Alura](https://www.alura.com.br/)
 - **Instrutor**: Rodrigo da Silva Ferreira Caneppele
-- **Carga horária**: Aproximadamente 34 horas
+- **Carga horária**: Aproximadamente 108 horas
 - **Status**: Concluído
 
 ---
